@@ -1,5 +1,5 @@
 import { getAllPosts, getPostBySlug } from "@/utils/markdown";
-import markdownToHtml from "@/utils/markdownToHtml";
+// import markdownToHtml from "@/utils/markdownToHtml";
 import { format } from "date-fns";
 import Image from "next/image";
 
@@ -70,7 +70,7 @@ export default async function BlogHead({ params }: Props) {
         "date",
     ]);
 
-    const content = await markdownToHtml(post.content || "");
+    // const content = await markdownToHtml(post.content || "");
 
     return (
         <>

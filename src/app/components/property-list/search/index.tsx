@@ -312,7 +312,7 @@ export default function AdvanceSearch({ category }: { category?: string }) {
                                 </div>
                                 :
                                 <div className='flex flex-col gap-5 items-center justify-center pt-20'>
-                                    <Image src={"/images/not-found/no-results.png"} alt='no-result' width={100} height={100} />
+                                    {/* <Image src={"/images/not-found/no-results.png"} alt='no-result' width={100} height={100} /> */}
                                     <p className='text-gray'>No result found</p>
                                 </div>
                             }
