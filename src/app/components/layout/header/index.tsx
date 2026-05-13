@@ -80,10 +80,6 @@ const Header: React.FC = () => {
     fetchData()
   }, [])
 
-  console.log("data",data);
-  
-
-
   const handleSignOut = () => {
     localStorage.removeItem("user");
     signOut();

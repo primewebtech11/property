@@ -4,10 +4,10 @@ import React from "react";
 
 export default function SessionProviderComp({
   children,
-  session,
+  session = null,
 }: {
   children: React.ReactNode;
-  session: any;
+  session?: any;
 }) {
   return (
     <>
